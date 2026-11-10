@@ -1,0 +1,26 @@
+{
+ "name": "bison",
+ "version": "3.8.2",
+ "license": "GPL-3.0-or-later",
+ "homepage": "",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "bison-3.8.2.tar.xz"
+ ],
+ "desc": "GNU Bison 3.8.2, the parser generator",
+ "file": "bison-3.8.2.tpkg",
+ "size": 467688,
+ "sha256": "7ae93883e533854a303a0babcd4d38567db7d6893eaec21ee208233393e0818f",
+ "unpacked": 1367313,
+ "min_build": 619,
+ "depends": [
+  "m4"
+ ],
+ "commands": {
+  "bison": "bin/bison",
+  "yacc": "bin/yacc"
+ }
+}
